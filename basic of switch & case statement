@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+int main(void)
+{
+    int number;
+
+    scanf("%d",&number);
+
+    switch(number)
+    {
+    case 3:
+        printf("the number is 3\n");
+        break;
+    case 5:
+        printf("the number is 5\n");
+        break;
+    case 7:
+        printf("the number is 7\n");
+        break;
+    case 9:
+        printf("the number is 9\n");
+        break;
+    default:
+        printf("unknown");
+    }
+
+    return 0;
+}
